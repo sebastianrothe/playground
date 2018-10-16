@@ -1,0 +1,16 @@
+{
+  "name": "wp-offline",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve-watch": "nodemon --watch ./src --exec 'php -S localhost:8000 -t src'",
+    "start": "run-p serve-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "npm-run-all": "^4.1.3"
+  }
+}
